@@ -53,3 +53,6 @@ docker-py
 # For code highlighting, required via the CodeHilite extension to
 # Python-Markdown
 pygments
+django>=4.2.27 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
